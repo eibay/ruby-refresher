@@ -52,8 +52,10 @@ if x && y || z
 end
 
 # TERNARY Operator
+puts "===== TERNARY Operator ====="
 puts true ?  "YES it's TRUE" : "NO it's FALSE"  # => YES it's TRUE
 puts false ? "YES it's TRUE" : "NO it's FALSE" # => NO it's FALSE
+
 
 
 
