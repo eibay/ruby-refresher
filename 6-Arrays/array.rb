@@ -100,6 +100,19 @@ p a.sort
 # product
 p [1, 2, 3].product([4, 5])
 
+# each vs map
+a = [1, 2, 3]
+a.each {|e| puts e}
+
+a = [1, 2, 3]
+a.each {|e| puts e + 2}
+
+a = [1,2,3]
+a.map {|x| puts x**2}
+
+# each and map are important methods to know but can be quite 
+# confusing in the beginning. Another way to remember these methods: 
+# use each for iteration and map for transformation.
 
 
 
