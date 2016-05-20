@@ -30,5 +30,7 @@ person.each do |key, value|
   puts "Bob's #{key} is #{value}"
 end
 
+# Hashes as Optional Parameters
+
 
 
